@@ -1,4 +1,4 @@
-**Microtick Proposal 1: Post-Genesis Validator Rewards**
+# Microtick Proposal 1: Post-Genesis Validator Rewards
 
 **The issue at hand:**
 
