@@ -1,3 +1,5 @@
+Author: nidea4u
+
 **Issue at hand:**
 Currently the only way for everyone to interact with the Microtick environment is through the command line interface. This creates friction and entry barriers for potential users and delegators. In addition delegation & undelegation becomes unduly cumbersome.
 
