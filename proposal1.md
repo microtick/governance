@@ -6,13 +6,17 @@ In the lead-up to Microtick’s genesis block, external validators (those not re
 
 Left undefined, however, was how new validators would be incentivized. If Microtick is to meet its goal of achieving maximal consensus security, it’ll require a large and diverse validator set – ideally, something eventually approximating that of the Cosmos Hub.
 
-With that in mind, Microtick (the entity) is proposing the following two-pronged policy that applies to the next 20 validators that join the network: \
+With that in mind, this proposal entails a three-pronged policy that applies to the next 20 validators that join the network: \
  \
 1.) New validators (who are not ShapeShift employees) should be incentivised at the rate of 5,000 TICK. These tokens would come from the remaining supply of 310,002 unallocated TICK. This TICK is held jointly by Microtick and ShapeShift in a multi-sig account. Current TICK supply is shown here: [https://microtick.com/chain-parameters.html](https://microtick.com/chain-parameters.html).
 
 (Note that as with the pre-genesis validators, new validators will need to complete the ShapeShift KYC process.)
 
 2.) In order to facilitate decentralization, ShapeShift employees serving as new validators should receive 1,000 TICK, the number of such validators not to exceed 10 under this proposal. (In other words, no more than 10 ShapeShift employees will be represented in the cohort of the next 20 overall validators).
+
+3.)In order to allay concerns that new validators will simply take their new TICK and leave without helping to secure the network, there will be a six-month "waiting period" before TICK is actually distributed. Specifically, for the first six months of validation - with the validator's initial funding beginning the countdown - the appropriate amount of TICK will be delegated, rather than transferred.
+
+New validators will be funded 1 TICK for their initial account creation, and then delegated the appropriate amount  (4,999 for non-ShapeShift validators; 999 for ShapeShift validators) . After six months, the TICK will be undelegated, and the actual TICK tokens (4,999 for non-ShapeShift validators; 999 for ShapeShift validators) will be sent to the account that was used to create and self-fund the validator initially.
 
 This arguably strikes a good balance between incentivizing new validators, while doing so in a way that’s a.) sustainable, and b.) fair to the pre-genesis validators who took on a higher risk by supporting the zone prior to its launch.
 
@@ -26,8 +30,10 @@ Additionally, concerns have been raised that some validators could commit to sup
 
 **The formal proposal:**
 
-The following will apply to the next 20 onboarded validators:
+If this vote passes, the following will apply to the next 20 onboarded validators:
 
 1.) New validators who are not ShapeShift employees will be incentivised at the rate of 5,000 TICK. 
 
 2.) ShapeShift employees serving as new validators will receive 1,000 TICK, the number of such validators not to exceed 10 under this proposal.
+
+3.) New validators will be funded 1 TICK for their initial account creation, and then delegated the appropriate amount  (4,999 for non-ShapeShift validators; 999 for ShapeShift validators) . After six months, the TICK will be undelegated, and the actual TICK tokens (4,999 for non-ShapeShift validators; 999 for ShapeShift validators) will be sent to the account that was used to create and self-fund the validator initially.
