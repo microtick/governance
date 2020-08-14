@@ -37,3 +37,19 @@ If this vote passes, the following will apply to the next 20 onboarded validator
 2.) ShapeShift employees serving as new validators will receive 1,000 TICK, the number of such validators not to exceed 10 under this proposal.
 
 3.) New validators will be funded 1 TICK for their initial account creation, and then delegated the appropriate amount  (4,999 for non-ShapeShift validators; 999 for ShapeShift validators) . After six months, the TICK will be undelegated, and the actual TICK tokens (4,999 for non-ShapeShift validators; 999 for ShapeShift validators) will be sent to the account that was used to create and self-fund the validator initially.
+
+**Voting Stage**
+
+The next stage in the governance process is the voting stage which lasts 1 week. Votes will be a simple "Yes" or "No" on the proposal. Only staked tokens are eligible to be used for governance voting. The amount of voting power is measured in terms of stake. The number of TICK a person or group has determined how much influence their vote will have on the outcome of a proposal. Voters can also change their vote until the closing period.
+
+**Tallying Stage**
+
+After one week the proposal voting will end and the following condition will be taken into consideration to determine if it passes or not:
+
+Quorum: more than 40% of the total staked tokens at the end of the voting period need to have voted.
+
+Threshold: More than 50% or a majority of the tokens that participated in the vote, have voted "Yes."
+
+If any of these conditions are not met, the deposit associated with the denied proposal will not be refunded. These funds will be sent to the community pool.
+
+Once a parameter change or software upgrade proposal is voted on and passes all conditions it will need to be integrated into a new version of the Microtick network software by validators while the previous working version continues to run. This is signalling that a switch will occur. Once more than 2⁄3 of the validators download this new version and signal they are ready to make the switch the rest of the network will be expected to do the same.
