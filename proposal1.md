@@ -40,7 +40,7 @@ If this vote passes, the following will apply to the next 20 onboarded validator
 
 **Voting Stage**
 
-The next stage in the governance process is the voting stage which lasts 1 week. Votes will be a simple "Yes" or "No" on the proposal. Only staked tokens are eligible to be used for governance voting. The amount of voting power is measured in terms of stake. The number of TICK a person or group has determined how much influence their vote will have on the outcome of a proposal. Voters can also change their vote until the closing period.
+The next stage in the governance process is the voting stage, which lasts 2 days. Votes will be a simple "Yes" or "No" on the proposal. Only staked tokens are eligible to be used for governance voting. The amount of voting power is measured in terms of stake. The number of TICK a person or group has determined how much influence their vote will have on the outcome of a proposal. Voters can change their vote until the closing period.
 
 **Tallying Stage**
 
