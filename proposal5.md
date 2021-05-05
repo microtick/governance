@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Allocate X TICKS from the community pool to participate Microtick as a sponsor and as a stakeholder in an Incentivised Test Network on the IBC
+Allocate X TICKS from the community pool to add Microtick as a sponsor and as a stakeholder in an Incentivised Test Network on the IBC testnet.
 
 ## Description
 
@@ -23,3 +23,26 @@ We believe this is a great way to encourage the use of our testnet and get IBC a
 
 BitCanna and Microtick will promote and coordinate the participation on this Testnet, but both chains remain separate and distinct. In particular, BitCanna has control over the users it admits while Microtick intends to keep participation open.
 
+The multisig account to hold the funds will be:
+
+```
+micro1uwp86hhwwglgq0k506w8pdquxjs4j40z64h00s
+pubkey: micropub1ytql0csgqgfzd666axrjzq655q6y43w5fz8m7mvk687vrqdx7rk0h2wfe5dq6e2lczsu6j33f5fzd666axrjzquhrlqtsp8633z33drsvma95wrcnq3ysdmjmyhusdm5qf8evnq4v5fmhjtn
+```
+
+This account has been generated from the pubkeys from Spanish Node and Microtick's validator accounts and can be validated by anyone using the mtcli tool:
+
+```
+$ mtcli query auth account micro1md2qat4zy6uy0r7y5y9y84h8zvu5tymyzp5zm6
+  address: micro1md2qat4zy6uy0r7y5y9y84h8zvu5tymyzp5zm6
+  public_key: micropub1addwnpepqwt3ls9cqnagc3gck3cxd7j68pufsgjgxaedjt7gxa6qynukfs2k24a8plr
+$ mtcli query auth account micro1pjtxlrflsyqtwyqkay3u5rz3flhchnedxkcjgj
+  address: micro1pjtxlrflsyqtwyqkay3u5rz3flhchnedxkcjgj
+  public_key: micropub1addwnpepqd22qdz2ch2y3raldktdrlxpsxn0pm8m48yu6xsdv40upgwdfgc56ywq8ck
+$ mtcli keys add spanishnode --pubkey micropub1addwnpepqwt3ls9cqnagc3gck3cxd7j68pufsgjgxaedjt7gxa6qynukfs2k24a8plr
+$ mtcli keys add microtick --pubkey micropub1addwnpepqd22qdz2ch2y3raldktdrlxpsxn0pm8m48yu6xsdv40upgwdfgc56ywq8ck
+$ mtcli keys add checkmultisig --multisig microtick,spanishnode --multisig-threshold 2
+$ mtcli keys show checkmultisig
+  type: multi
+  address: micro1uwp86hhwwglgq0k506w8pdquxjs4j40z64h00s
+```
