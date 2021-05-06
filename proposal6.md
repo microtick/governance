@@ -1,8 +1,8 @@
-# Microtick Proposal 5: IBC Incentive Allocation
+# Microtick Proposal 6: IBC Incentive Allocation
 
 ## Purpose
 
-Allocate X TICKS from the community pool to add Microtick as a sponsor and as a stakeholder in an Incentivised Test Network on the IBC testnet.
+Allocate 10,000.00 TICKS from the community pool to add Microtick as a sponsor and as a stakeholder in an Incentivised Test Network on the IBC testnet.
 
 ## Description
 
