@@ -2,22 +2,22 @@
 
 ## Purpose
 
-Allocate 10,000.00 TICKS from the community pool to add Microtick as a sponsor and as a stakeholder in an Incentivised Test Network on the IBC testnet.
+Allocate 10,000.00 TICK from the community pool to add Microtick as a sponsor and as a stakeholder in an Incentivised Test Network on the IBC testnet.
 
 ## Description
 
 - BitCanna.io is moving from their BitCore blockchain to Cosmos.
 - They are promoting an Incentivized Testnet with some common tasks. One of these tasks is related to IBC.
-- They have proposed to collaborate with Microtick to build a test scenario where make connections/paths, send / receive tokens, etc.
+- They have proposed to collaborate with Microtick to build a test scenario to experiment with connections/paths, send / receive tokens, etc.
 - BitCanna will reward participants with their tokens to participants and Microtick as well for this IBC task, each with their respective tokens.
 
 ## Benefits
 
-Microtick will get more attention in the Cosmos Ecosystem and BitCanna will provide related marketing, something very needed with Microtick currently.
+Microtick will get more attention in the Cosmos Ecosystem and BitCanna will provide related marketing, something very needed for Microtick currently.
 
-The funds will be transferred to a multisig account jointly owned by Microtick and Spanish-Node validator operators. Raul represents BitCanna for the purpose of this proposal. At the end of the testnet IBC phase, both owners will evaluate and distribute the allocated tokens in line with the results of the IBC competition.
+The funds will be transferred to a multisig account jointly owned by Microtick and Spanish-Node validator operators. Raul from Spanish-Node represents BitCanna for the purpose of this proposal. At the end of the testnet IBC phase, both multisig signers will evaluate and distribute the allocated tokens in line with the results of the IBC competition.
 
-We believe this is a great way to encourage the use of our testnet and get IBC and relayers moved to a production-ready state. Otherwise, experience has shown that nobody has much interest in participating in a non-incentivised environment.
+We believe this will be a great way to encourage the use of our testnet and get IBC and relayers moved to a production-ready state. Otherwise, experience has shown that nobody has much interest in participating in a non-incentivised environment.
 
 ## Notes
 
