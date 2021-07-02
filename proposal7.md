@@ -13,6 +13,10 @@ community should initiate and enable this upgrade.
 Community should then coordinate with the Osmosis zone community to make sure an IBC connection is established between 
 Osmosis and Microtick.
 
+Regardless of this proposal's passage, **Microtick the centralized business entity will be ceasing operation of the Ethereum / DAI 
+bridge as of July 29th, 2021 (the 1 year anniversary of the microtickzone chain series)**. All MT-DAI currently outstanding on the 
+Microtick chain is backed by DAI contained at this Ethereum address: 0x573162B096a2250ba933a6D87457557aDe4F10e7.
+
 ## Benefits
 
 IBC compatibility brings many benefits to the Microtick zone and community, including delivering on the promise of IBC 
@@ -20,12 +24,51 @@ enabled cosmos zones.
 
 Being able to participate in the Osmosis zone will bring further attention and community development to the Mircotick 
 community, as well as allowing TICK to freely trade, allowing further decentralization and distribution as well as the 
-ability for interested validators to acquire TICK.
+ability for interested validators to acquire TICK.  Also, this will enable Microtick to be setup to connect to other IBC 
+enabled AMMs such as the Gravity DEX.
 
-Also, this will enable Microtick to be setup to connect to other IBC enabled AMMs such as the Gravity DEX which is due 
-to launch on the Cosmos hub in a matter of weeks.(edited)
+## Upgrade Procedure
 
-## Stargate Changes
+### 1. Chain Halt
+
+If this proposal passes, the existing chain "microtickzone-a2" will be snapshotted on July 29th, 2021 at 3 pm UTC. After
+this cutoff time, validators will be free to stop their nodes.
+
+### 2. Account Balance Import
+
+A new genesis block will be created using the stargate Microtick binary with default parameters.
+
+The state at the **last block with a consensus timestamp prior to the cutoff time** will be used to generate account balances
+for chain restart.
+
+Account balances will be imported by script using CLI "mtm add-genesis-account" functionality, using the account balances from the
+microtickzone-a2 snapshot at the cutoff time and a script which will be provided.
+
+### 3. Market Import
+
+The names and descriptions of current markets will be imported to the new genesis as well.
+
+### 4. Genesis Time and Chain ID
+
+In addition, the new chain ID and genesis time parameters will be changed to:
+
+genesis_time = "2021-08-02T15:00:00Z"
+chain_id = "microtick-1"
+
+### 5. Governance Voting Time
+
+The governance voting time period will be imported to the new genesis as well.
+
+### 6. New Genesis Signing
+
+Validators will sign a new gentx from this new genesis.json and prepare their nodes prior to the chain restart time of August 1, 2021.
+
+### 7. Post-restart Governance
+
+Post-restart, there will be a governance proposal to use cosmos ATOM as the backing token for Microtick. This will require an IBC channel
+to be created first in order to determine the IBC denomination in the proposal. Validators should stand by for this vote, post-restart.
+
+## Microtick Stargate - Chain Upgrade Notes
 
 The upcoming Stargate release brings the highly anticipated IBC capabilities to the Microtick chain, and some exciting new features as well.
 
