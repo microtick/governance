@@ -2,7 +2,7 @@
 
 ## Purpose
 
-Upgrade Microtick zone to be compatible with IBC and connect to the Osmosis Zone (launching Saturday June 18th) so TICK 
+Upgrade Microtick zone to be compatible with IBC and connect to the Osmosis Zone (which launched Saturday June 18th) so TICK 
 can trade on this new IBC enabled AMM with other IBC enabled assets.
 
 ## Description
