@@ -57,27 +57,27 @@ About me:
 * Develop and maintain the endpoints necessary for the Coins Trackers to examine our data.
 
 ## Coin list providers 
-https://coinmarketcap.com/
-https://www.coingecko.com/
-https://www.coincap.io/
-https://www.coinbase.com/
-https://crypto.com/
-https://coinranking.com/
-https://blockfolio.com/
-https://www.livecoinwatch.com/
-https://blockfi.com/
-https://www.livecoinwatch.com/
-https://www.cryptocompare.com/
-https://delta.app/
-https://www.cointracker.io/
-https://coinarbitragebot.com/
-https://lunarcrush.com/
-https://digitalcoinprice.com/
-https://cointobuy.io/
-https://www.centralcharts.com/
-https://coinstats.app/
-https://www.cryptowisser.com/
-https://coincost.net/
+* https://coinmarketcap.com/
+* https://www.coingecko.com/
+* https://www.coincap.io/
+* https://www.coinbase.com/
+* https://crypto.com/
+* https://coinranking.com/
+* https://blockfolio.com/
+* https://www.livecoinwatch.com/
+* https://blockfi.com/
+* https://www.livecoinwatch.com/
+* https://www.cryptocompare.com/
+* https://delta.app/
+* https://www.cointracker.io/
+* https://coinarbitragebot.com/
+* https://lunarcrush.com/
+* https://digitalcoinprice.com/
+* https://cointobuy.io/
+* https://www.centralcharts.com/
+* https://coinstats.app/
+* https://www.cryptowisser.com/
+* https://coincost.net/
 
 
 
