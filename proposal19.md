@@ -1,4 +1,4 @@
-# Community Pool Spend - New Logo and Web Desing attending new rebranding agreement at www.discoverydex.io
+# Community Pool Spend - New Logo and Web Design attending new rebranding agreement at www.discoverydex.io
 
 By proposal number 16 (https://explorer.microtick.zone/proposals/16) it was agreed to change the name of Microtick to DiscoveryDEX. Proposal number 17 received fewer votes. 
 
