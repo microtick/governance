@@ -2,11 +2,11 @@
 
 By proposal number 16 (https://explorer.microtick.zone/proposals/16) it was agreed to change the name of Microtick to DiscoveryDEX. Proposal number 17 received fewer votes. 
 
-## The Problem
+## The Problem
 We need a new informative website and a new logo.
 The information on www.microtick.com is still valid for DiscoveryDEX for the time being.
 
-## The Solution.
+## The Solution.
 I found a company that could do both jobs for us and submitted a quote on 13 May (https://discord.com/channels/739872992669991003/739878687142314037/974621289148981328). 
 
 **Deaccel Partners** is the company to do both jobs for $3,000.00. 
